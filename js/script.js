@@ -1,7 +1,7 @@
 const body = document.querySelector('body');
-// let page = document.querySelector('.page')
-// let popUp = document.querySelector(".pop-up");
-// let close_popUp = document.querySelector(".close-button");
+let page = document.querySelector('.page')
+let popUp = document.querySelector(".pop-up");
+let close_popUp = document.querySelector(".close-button");
 
 
 // Pop up
@@ -38,42 +38,6 @@ function showPopUpAfter5sec() {
 
 }
 showPopUpAfter5sec()
-
-
-
-
-
-
-
-
-
-
-
-// let productsCard = document.querySelectorAll(".product-card");
-// let products = []
-
-// productsCard.forEach(function(productCard) {
-//     productCard.addEventListener('click', function () {
-//         const productTitle = productCard.querySelector(".product-title").textContent;
-//         const productPrice = productCard.querySelector(".price").textContent;
-//         const productDesc = productCard.querySelector(".product-description").textContent;
-//         const hasDiscount = productCard.querySelector(".discount") !== null;
-//         const productDiscount = hasDiscount ? true : false;
-//         const productInfo = {
-//             title: productTitle,
-//             price: productPrice,
-//             description: productDesc,
-//             discount: productDiscount
-//         };
-//         products.push(productInfo);
-
-//         for (const key in productInfo) {
-//             console.log(productInfo[key]);
-//         }
-//     });
-
-// });
-
 
 
 //Cart/
