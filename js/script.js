@@ -17,7 +17,7 @@ function closePopUp() {
     page.classList.remove("blur");
     document.body.style.overflow = 'auto';
 }
-// const popUpbtn = document.querySelector('.popup-button');
+const popUpbtn = document.querySelector('.popup-button');
 
 popUpbtn.addEventListener('click', closePopUp);
 
