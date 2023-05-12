@@ -128,7 +128,7 @@ function countChange() {
     });
     counterIndicator.innerText = countInCart;
     if (countInCart === 0) {
-      counterIndicator.innerText = "0";
+      counterIndicator.innerText = "0gi";
     }
   }/*Func of changes in the counter of goods by entering in the Input */
 function inputCountChange(){
