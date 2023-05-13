@@ -624,7 +624,7 @@ body.active {
   margin-left: 25px;
 }
 .star-li::before {
-  content: url(img/star-2.svg);
+  content: url(/img/star-2.svg);
   height: 25px;
   width: 26px;
   position: absolute;
@@ -638,7 +638,7 @@ body.active {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-image: url(img/BG\ Shape\ Content.png);
+  background-image: url(/img/BG\ Shape\ Content.png);
   padding: 120px 15px;
 }
 
@@ -705,7 +705,7 @@ body.active {
 
 .our-menu {
   display: flex;
-  background-image: url(img/BG\ Shape\ Content\ block\ 4.png);
+  background-image: url(/img/BG\ Shape\ Content\ block\ 4.png);
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -825,7 +825,7 @@ body.active {
   justify-content: center;
   width: 100%;
   padding: 140px 15px;
-  background-image: url(img/BG\ Shape\ Content.png);
+  background-image: url(/img/BG\ Shape\ Content.png);
 }
 
 .call-store {
@@ -893,7 +893,7 @@ body.active {
 }
 
 .right-block {
-  background-image: url(img/bg_supportgood.png);
+  background-image: url(/img/bg_supportgood.png);
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -908,7 +908,7 @@ body.active {
 
 footer {
   width: 100%;
-  background-image: url("img/bg_footer.png");
+  background-image: url(/img/bg_footer.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
