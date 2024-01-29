@@ -44,7 +44,7 @@ body.dark-theme {
     height: 50px;
     background-size: contain;
     background-repeat: no-repeat; 
-    background-image: url('/img/sun.svg');
+    background-image: url('./img/sun.svg');
     border-radius: 50px;
     z-index: 998;
     background-color: transparent; 
@@ -56,11 +56,11 @@ body.dark-theme {
 }
 
 #theme-toggle.dark-theme {
-    background-image: url('/img/moon.svg');
+    background-image: url('./img/moon.svg');
 }
 
 #theme-toggle.light-theme {
-    background-image: url('/img/sun.svg');
+    background-image: url('./img/sun.svg');
 }
 
 
