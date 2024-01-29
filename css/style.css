@@ -28,7 +28,7 @@ body.dark-theme {
   height: 50px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("./img/sun.svg");
+  background-image: url("/img/sun.svg");
   border-radius: 50px;
   z-index: 998;
   background-color: transparent;
@@ -40,11 +40,11 @@ body.dark-theme {
 }
 
 #theme-toggle.dark-theme {
-  background-image: url("./img/moon.svg");
+  background-image: url("/img/moon.svg");
 }
 
 #theme-toggle.light-theme {
-  background-image: url("./img/sun.svg");
+  background-image: url("/img/sun.svg");
 }
 
 h1 {
@@ -543,7 +543,7 @@ body.active {
 
 .welcome-block {
   display: flex;
-  background-image: url(./img/BG\ Shape.png);
+  background-image: url(/img/BGShape.png);
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -624,7 +624,7 @@ body.active {
   margin-left: 25px;
 }
 .star-li::before {
-  content: url(./img/star-2.svg);
+  content: url(/img/star-2.svg);
   height: 25px;
   width: 26px;
   position: absolute;
@@ -638,7 +638,7 @@ body.active {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-image: url(./img/BG\ Shape\ Content.png);
+  background-image: url(/img/BGShapeContent.png);
   padding: 120px 15px;
 }
 
@@ -705,7 +705,7 @@ body.active {
 
 .our-menu {
   display: flex;
-  background-image: url(./img/BG\ Shape\ Content\ block\ 4.png);
+  background-image: url(/img/BGShapeContentblock4.png);
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -825,7 +825,7 @@ body.active {
   justify-content: center;
   width: 100%;
   padding: 140px 15px;
-  background-image: url(./img/BG\ Shape\ Content.png);
+  background-image: url(/img/BGShapeContent.png);
 }
 
 .call-store {
@@ -893,7 +893,7 @@ body.active {
 }
 
 .right-block {
-  background-image: url(./img/bg_supportgood.png);
+  background-image: url(/img/bgsupportgood.png);
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -909,8 +909,7 @@ body.active {
 footer {
   width: 100%;
   background-image: url(/img/bgfooter.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
 }
 
 .footer-container {
