@@ -1,6 +1,6 @@
 .welcome-block {
     display: flex;
-    background-image: url("/img/BGShape.png");
+    background-image: url(../img/BGShape.png);
     background-position-x: center;
     width: 100%;
     align-items: center;
@@ -84,7 +84,7 @@
     margin-left: 25px;
 
     &::before {
-        content: url("/img/star-2.svg");
+        content: url(../img/star-2.svg);
         height: 25px;
         width: 26px;
         position: absolute;
@@ -99,7 +99,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-image: url("/img/BGShapeContent.png");
+    background-image: url(../img/BGShapeContent.png);
     background-position-x: center;
     padding: 120px 15px;
 }
@@ -167,7 +167,7 @@
 
 .our-menu {
     display: flex;
-    background-image: url("/img/BGShapeContentblock4.png");
+    background-image: url(../img/BGShapeContentblock4.png);
     background-position-x: center;
     width: 100%;
     align-items: center;
@@ -294,7 +294,7 @@
     justify-content: center;
     width: 100%;
     padding: 140px 15px;
-    background-image: url("/img/BGShapeContent.png");
+    background-image: url(../img/BGShapeContent.png);
     background-position-x: center;
 }
 
@@ -362,7 +362,7 @@
 }
 
 .right-block {
-    background-image: url("/img/bgsupportgood.png");
+    background-image: url(../img/bgsupportgood.png);
     background-position-x: center;
     justify-content: center;
     align-items: center;
